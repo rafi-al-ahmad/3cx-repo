@@ -42,6 +42,17 @@ return [
             'visibility' => 'public',
         ],
 
+        'ftp' => [
+            'driver' => 'ftp',
+            'host' => 'ftp.rafi.nobalaa.com',
+            'username' => 'rafinobalaaFTP@rafi.nobalaa.com',
+            'password' => '!T(OJvWTl?A$',
+            'passive' => true,
+            'timeout' => 300,
+            'root' => '/',
+            'url' => '/'
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
